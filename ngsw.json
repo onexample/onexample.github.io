@@ -1,0 +1,52 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/data-table.module.503350943f6cc5aea856.chunk.js",
+        "/inline.240a446ded72886e1260.bundle.js",
+        "/main.82241a9e9689d0ba6457.bundle.js",
+        "/polyfills.b4476bc59f862f69211e.bundle.js",
+        "/repositories.module.d733d5db1b7ae38e3b03.chunk.js",
+        "/styles.602b0ca2a6bd9331d516.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "repositories",
+      "patterns": [
+        "\\/repositories"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/data-table.module.503350943f6cc5aea856.chunk.js": "19dbfec5b6f0cba27f19b0d029dbc44e5a8cec9a",
+    "/inline.240a446ded72886e1260.bundle.js": "9d90eab32599364bc730a6f6070c9759350bf231",
+    "/main.82241a9e9689d0ba6457.bundle.js": "d3f0fbd335e144d48b7aeb37fb5b37f0cc52af71",
+    "/polyfills.b4476bc59f862f69211e.bundle.js": "2e952380e76a342dcab504bcc4ca633082b25b10",
+    "/repositories.module.d733d5db1b7ae38e3b03.chunk.js": "c5e09043c70c11f81702f72e002028f6ecb179ed",
+    "/styles.602b0ca2a6bd9331d516.bundle.css": "747ed2c4608a36ff62dba61ae5fe8962b169b263",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "a4831a1c725c45571fb7e08c62b370e7064cbd15"
+  }
+}
